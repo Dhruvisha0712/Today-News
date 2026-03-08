@@ -38,7 +38,7 @@ class HomeViewController: UIViewController {
         
         let email = defaults.string(forKey: "email")
         emailLbl.text = email
-        emailLbl.textColor = .green
+        emailLbl.textColor = .yellow
     }
     
     override func viewWillAppear(_ animated: Bool) {
