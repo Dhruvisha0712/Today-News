@@ -46,6 +46,7 @@ class HomeViewController: UIViewController {
             newsTblView.delegate = self
             newsTblView.dataSource = self
             newsTblView.register(UINib(nibName: Constants.newsTableViewCellNibName, bundle: nil), forCellReuseIdentifier: Constants.newsCellReuseId)
+            newsTblView.showsVerticalScrollIndicator = false
             
             newsTblView.rowHeight = UITableView.automaticDimension
             newsTblView.estimatedRowHeight = 100
